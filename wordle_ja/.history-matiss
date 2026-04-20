@@ -1,0 +1,5 @@
+_T=20250812_17:37:28_100369	 grep -r . -e "system_prompt"
+_T=20250812_17:37:31_100369	 grep -r . -e "system"
+_T=20250812_17:37:56_100369	 grep -r . -e "system" > rezzez.txt
+_T=20260306_19:58:50_59845	 grep -r -e "sarkans"
+_T=20260306_23:05:43_59845	 tmux a

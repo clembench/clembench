@@ -1,3 +1,0 @@
-_T=20250812_17:37:28_100369	 grep -r . -e "system_prompt"
-_T=20250812_17:37:31_100369	 grep -r . -e "system"
-_T=20250812_17:37:56_100369	 grep -r . -e "system" > rezzez.txt

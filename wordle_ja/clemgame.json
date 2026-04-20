@@ -9,29 +9,5 @@
     "benchmark": ["2.0"],
     "regression": "small",
     "roles": ["Guesser"]
-  },
-  {
-    "game_name": "wordle_ja_withclue",
-    "description": "ワードル 5文字の単語を推測するゲーム with clue giver.",
-    "main_game": "wordle_ja",
-    "instances": "instances_withclue",
-    "players": 2,
-    "image": "none",
-    "languages": ["ja"],
-    "benchmark": ["2.0"],
-    "regression": "large",
-    "roles": ["Guesser", "Clue Giver"]
-  },
-  {
-    "game_name": "wordle_ja_withcritic",
-    "description": "ワードル 5文字の単語を推測するゲーム with critic.",
-    "main_game": "wordle_ja",
-    "instances": "instances_withcritic",
-    "players": 2,
-    "image": "none",
-    "languages": ["ja"],
-    "benchmark": ["2.0"],
-    "regression": "large",
-    "roles": ["Guesser", "Clue Giver"]
   }
 ]

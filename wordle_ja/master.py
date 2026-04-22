@@ -110,12 +110,12 @@ def parse_response(player: Player, response: str, words: Dict) -> Tuple[str, str
 
         # Let's try to see if there is really no way to do this right...
 
-        if words["explanation_lang"] in response:
-            resp_parts = response.split(words["explanation_lang"])
-            response = words["explanation_lang"] + resp_parts[1]
         if "assistantfinal" in response:
             resp_parts = response.split("assistantfinal")
             response = resp_parts[1]
+        if words["explanation_lang"] in response:
+            resp_parts = response.split(words["explanation_lang"])
+            response = words["explanation_lang"] + resp_parts[1]
         else:
             raise ParseError(f"答えは常にキーワードで始まる必要があります '{words['explanation_lang']}'",
                          key="INVALID_START_WORD")
